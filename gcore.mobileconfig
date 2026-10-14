@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>95.85.95.85</string>
+					<string>2.56.220.2</string>
+					<string>2a03:90c0::55</string>
+					<string>2a03:90c0:9999::55</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://gcorepublicdns.com</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures Encrypted DNS over HTTPS using Gcore Public DNS for ultra-low latency and zero filtering.</string>
+			<key>PayloadDisplayName</key>
+			<string>Gcore Public DNS (DoH)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.gcore.dns.doh</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>4F2A1E8C-8B3D-4C2E-9D1A-6B7C5E3F4A5B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>System-wide native encrypted DNS routing over cellular data.</string>
+	<key>PayloadDisplayName</key>
+	<string>Gcore DNS Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>com.gcore.dns.profile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>7A1B2C3D-4E5F-6G7H-8I9J-0K1L2M3N4O5P</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
